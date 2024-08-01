@@ -12,5 +12,5 @@ Classifier: Topic :: Software Development :: Libraries :: Python Modules
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: ==3.9.19
+Requires-Python: ==3.9.13
 Description-Content-Type: text/markdown

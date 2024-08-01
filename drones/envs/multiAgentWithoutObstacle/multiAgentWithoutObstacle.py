@@ -72,8 +72,6 @@ class multiAgentWithoutObstacleV0(gym.Env):
         self.states = []
         for i in range(self.num_agents):
             drone_position = self.droneInitInfo[i][:3]
-            print("xxxxxxxxx", drone_position, type(drone_position))
-            states[i] = torch.tensor(drone_position)
             position_lat = self._computeDistanceLat(drone_position, self.targetPosition)
             initial_state = self.droneInitInfo[i] + position_lat
             p.resetBasePositionAndOrientation(self.drones[i], self.droneInitInfo[i][:3], p.getQuaternionFromEuler([0, 0, 0]))
