@@ -1,6 +1,3 @@
-```markdown
-# 项目环境部署指南
-
 ## 1. 下载并安装 Anaconda
 
 ### 1.1 下载 Anaconda
